@@ -26,7 +26,7 @@ export default function DataTable({domains}) {
   })
 
   return (
-    <div style={{ height: 443, width: '90%' }}>
+    <div style={{ height: 443, width: '90%', maxWidth: 850 }}>
       <DataGrid
         rows={rows}
         rowHeight={33}
